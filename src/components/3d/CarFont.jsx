@@ -9,7 +9,7 @@ export default function Home() {
       </SplineContainer>
       <Content>
         <Title>Car Rental Service</Title>
-        <Button>Rent car now</Button>
+        <Button to="/catalog">Rent car now</Button>
       </Content>
     </>
   );

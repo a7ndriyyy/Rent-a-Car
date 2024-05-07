@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const Title = styled.h1`
   position: relative;
@@ -22,7 +23,7 @@ export const SplineContainer = styled.div`
 `;
 export const Content = styled.div``;
 
-export const Button = styled.button`
+export const Button = styled(NavLink)`
   position: absolute;
   display: flex;
   justify-content: center;
