@@ -1,9 +1,9 @@
-import { StyledLogoLink } from './Logo.styled';
+import { StyledLogo } from './Logo.styled';
 import { FaCar } from 'react-icons/fa';
 
 export const Logo = () => {
   return (
-    <StyledLogoLink to={'/'}>
+    <StyledLogo>
       <FaCar
         size={50}
         color="white"
@@ -14,6 +14,6 @@ export const Logo = () => {
           alignContent: 'center',
         }}
       />
-    </StyledLogoLink>
+    </StyledLogo>
   );
 };
