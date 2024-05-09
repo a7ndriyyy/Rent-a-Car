@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/testt">
+  <BrowserRouter basename="/Rent-a-Car">
     <App />
   </BrowserRouter>
 );

@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://a7ndriyyy.github.io/testt/",
+  "homepage": "https://a7ndriyyy.github.io/Rent-a-Car/",
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@testing-library/jest-dom": "^5.16.3",
