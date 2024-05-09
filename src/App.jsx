@@ -2,11 +2,11 @@ import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import { Suspense } from 'react';
-import Header from './Header/Header';
+import Header from './components/Header/Header';
 
-const HomePage = lazy(() => import('../pages/HomePage'));
-const CatalogPage = lazy(() => import('../pages/CatalogPage'));
-const FavoritePage = lazy(() => import('../pages/FavoritePage'));
+const HomePage = lazy(() => import('./pages/HomePage'));
+const CatalogPage = lazy(() => import('./pages/CatalogPage'));
+const FavoritePage = lazy(() => import('./pages/FavoritePage'));
 
 function App() {
   return (
