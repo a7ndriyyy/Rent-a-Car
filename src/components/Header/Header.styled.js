@@ -15,11 +15,11 @@ export const Div = styled.div`
 
 export const Menu = styled.ul`
   display: flex;
-  align-items: center;
   gap: 50px;
   height: 100%;
   list-style-type: none;
   margin-left: 50px;
+  margin-top: -35px;
 `;
 
 export const MenuLink = styled(NavLink)`

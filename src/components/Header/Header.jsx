@@ -1,21 +1,12 @@
-import { Headers, Div, Menu, MenuLink } from './Header.styled';
+import { Headers } from './Header.styled';
+import { Logo } from './Logo/Logo';
+import { Navigation } from './Navigation/Navigation';
 
 const Header = () => {
   return (
     <Headers>
-      <Div>
-        <Menu>
-          <li>
-            <MenuLink to="/">Home</MenuLink>
-          </li>
-          <li>
-            <MenuLink to="/catalog">Catalog</MenuLink>
-          </li>
-          <li>
-            <MenuLink to="/favorites">Favorite</MenuLink>
-          </li>
-        </Menu>
-      </Div>
+      <Logo />
+      <Navigation />
     </Headers>
   );
 };

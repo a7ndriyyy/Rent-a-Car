@@ -35,13 +35,7 @@ const line = keyframes`
   }
 `;
 
-export const LoaderContainer = styled.div`
-  position: fixed;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
+export const LoaderContainer = styled.div``;
 
 export const CarSvg = styled.svg`
   .car__body {
