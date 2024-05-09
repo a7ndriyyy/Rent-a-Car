@@ -10,6 +10,7 @@ import {
   Button,
   ButtonFav,
   ButtonFavActive,
+  Div,
 } from './CarItem.styled';
 import Modal from '../Modal/Modal';
 import { useState, useEffect } from 'react';
@@ -61,7 +62,7 @@ const CarItem = ({ data }) => {
   };
   return (
     <Wrapper>
-      <div>
+      <Div>
         <Image src={img} alt="" />
         <TitleWrapper>
           <Title>
@@ -86,7 +87,7 @@ const CarItem = ({ data }) => {
           </OptionsWrapper>
         </div>
         <Button onClick={handleMore}>Learn more</Button>
-      </div>
+      </Div>
       {isFavorite ? (
         <ButtonFavActive onClick={handleFavClick}>
           <svg

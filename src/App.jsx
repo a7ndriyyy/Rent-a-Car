@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { Suspense } from 'react';
 import Header from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CatalogPage = lazy(() => import('./pages/CatalogPage'));
@@ -19,6 +20,7 @@ function App() {
           <Route path="favorites" element={<FavoritePage />}></Route>
         </Routes>
       </Suspense>
+      <Footer />
     </>
   );
 }

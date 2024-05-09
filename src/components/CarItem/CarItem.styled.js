@@ -1,9 +1,22 @@
 import styled from 'styled-components';
 
+export const Div = styled.div`
+  border-radius: 8px;
+  :hover :focus {
+    box-shadow: 0px 0px 60px 0px purple;
+  }
+  transition: box-shadow 0.5s;
+  transform: 0.5;
+`;
+
 export const Wrapper = styled.div`
   position: relative;
   width: 274px;
   height: 426px;
+  :hover {
+    box-shadow: 0px 0px 60px 0px purple;
+    transform: scale(1.01);
+  }
 `;
 
 export const Image = styled.img`

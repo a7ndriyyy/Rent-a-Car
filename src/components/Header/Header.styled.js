@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Headers = styled.header`
   background-image: radial-gradient(ellipse, black, purple);
-  height: 60px;
+  height: 70px;
 `;
 
 export const Div = styled.div`

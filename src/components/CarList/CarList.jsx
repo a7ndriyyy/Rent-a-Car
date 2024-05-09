@@ -10,7 +10,7 @@ import { resetCars } from '../../redux/cars/slice';
 
 import CarItem from '../CarItem/CarItem';
 
-import Loader from '../Loader';
+import Loader from '../Loader/Loader';
 
 import SearchCarForm from '../SearchCarForm/SearchCarForm';
 
@@ -71,13 +71,13 @@ const CarList = () => {
               return <CarItem key={car.id} data={car} />;
             })}
         </SectionCatalog>
+        {isLoading && <Loader />}
         {page < 3 && !make && (
           <Button type="button" onClick={handleLoadMore}>
             Load more
           </Button>
         )}
       </Container>
-      {isLoading && <Loader />}
     </>
   );
 };
